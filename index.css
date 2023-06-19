@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Reset default margins and paddings */
+body, h1, h2, ul, li {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Style the navigation menu */
+nav {
+    background-color: hsl(41, 96%, 56%);
+    color: #f3f5f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.logo p{
+    color: #000;
+    font-size: 20px;
+    font: 200;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #1a1717;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #f0e8e8ea;
+}
+
+/* Style the sections */
+section {
+    padding: 50px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
